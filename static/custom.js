@@ -15,7 +15,7 @@ var customScripts = {
                 }
             });
             $("a[href='#top']").click(function () {
-                $("html, body").animate({ scrollTop: 0 }, "slow");
+                $("html, body").animate({scrollTop: 0}, "slow");
                 return false;
             });
             $('.navbar-inverse').on('click', 'li a', function () {
@@ -51,10 +51,10 @@ var customScripts = {
     },
     onePageNav: function () {
 
-        		if($('#main-nav ul li:first-child').hasClass('active')){
-					$('#main-nav').css('background','none');
-		}
-        $('#mainNav').onePageNav({        
+        if ($('#main-nav ul li:first-child').hasClass('active')) {
+            $('#main-nav').css('background', 'none');
+        }
+        $('#mainNav').onePageNav({
             currentClass: 'active',
             changeHash: false,
             scrollSpeed: 950,
@@ -63,24 +63,24 @@ var customScripts = {
             easing: 'swing',
             begin: function () {
                 //I get fired when the animation is starting
-				
+
             },
             end: function () {
                 //I get fired when the animation is ending
-				if(!$('#main-nav ul li:first-child').hasClass('active')){
-					$('.header').addClass('addBg');					
-				}else{
-						$('.header').removeClass('addBg');
-				}
-				
+                if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                    $('.header').addClass('addBg');
+                } else {
+                    $('.header').removeClass('addBg');
+                }
+
             },
             scrollChange: function ($currentListItem) {
                 //I get fired when you enter a section and I pass the list item of the section
-				if(!$('#main-nav ul li:first-child').hasClass('active')){
-					$('.header').addClass('addBg');
-				}else{
-						$('.header').removeClass('addBg');
-				}
+                if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                    $('.header').addClass('addBg');
+                } else {
+                    $('.header').removeClass('addBg');
+                }
             }
         });
     },
@@ -120,32 +120,32 @@ var customScripts = {
 }
 $('document').ready(function () {
     customScripts.init();
-	$('#diagram-id-1').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#ffba00",
-			textSize: 54,
-			textColor: '#1a1a1a'
-		}); 
-		$('#diagram-id-2').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#2ecc71",
-			textSize: 54,
-			textColor: '#333'
-		});
+    $('#diagram-id-1').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#ffba00",
+        textSize: 54,
+        textColor: '#1a1a1a'
+    });
+    $('#diagram-id-2').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#2ecc71",
+        textSize: 54,
+        textColor: '#333'
+    });
 
-		$('#diagram-id-3').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#3498db",
-			textSize: 54,
-			textColor: '#1a1a1a'
-		});
-		$(window).load(function() { 
-			  $('#filter .current').trigger('click');
-		});
+    $('#diagram-id-3').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#3498db",
+        textSize: 54,
+        textColor: '#1a1a1a'
+    });
+    $(window).load(function () {
+        $('#filter .current').trigger('click');
+    });
 });
