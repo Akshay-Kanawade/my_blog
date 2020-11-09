@@ -1,436 +1,532 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>MY Resume</title>
-<meta name="description" content="">
-<meta name="author" content="WebThemez">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <meta charset="utf-8">
+    <title>Akshay Personal blog</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}" />
-<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='isotope.css')}}" media="screen" />
-<link rel="stylesheet" href="{{url_for('static',filename='jquery.fancybox.css')}}" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='da-slider.css')}}" />
-<link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}" />
-<!-- Font Awesome -->
-<link href="{{url_for('static',filename='font-awesome.min.css')}}" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="/static/img/favicon.png" rel="icon">
+    <link href="/static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap CSS File -->
+    <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="/static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="/static/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+      Theme Name: DevFolio
+      Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+      Author: BootstrapMade.com
+      License: https://bootstrapmade.com/license/
+    ======================================================= -->
 </head>
 
-<body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a href="#" class="navbar-brand scroll-top logo"><b>Me..</b></a> </div>
-      <!--/.navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#aboutUs" class="scroll-link">AboutMe</a></li>
-          <li><a href="#experience" class="scroll-link">Education</a></li>
-          <li><a href="#skills" class="scroll-link">Skills</a></li>
-          <li><a href="#portfolio" class="scroll-link">Document</a></li>
-          <li><a href="#contactUs" class="scroll-link">ContactMe</a></li>
-        </ul>
-      </div>
-       
-      <!--/.navbar-collapse-->
-    </nav>
-    <!--/.navbar-->
-  </div>
-  <!--/.container-->
-</header>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container"> <img src="{{url_for('static',filename='banner-bg.jpg')}}" alt="banner" />
-    <div class="container banner-content">
-      <div class="heroText">
-        <h2><span>HEllo, I'm</span><br>
-          AKSHAY KANAWADE</h2>
-        <span class="caption">STUDENT at AVCOE,SANGAMNER</span> </div>
+<body id="page-top">
 
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
- <div class="row experience-details">
-   <div class="col-md-7">
-    <div class="col-md-pull-4">
-
-
-
-    </div>
-   </div>
- </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<!--About-->
-
-<section id="aboutUs">
-  <div class="container">
-    <div class="row">
-      <h2><b>ABOUT ME</b></h2>
-      <!-- item -->
-      <div class="col-md-3 tileBox"> <img src="{{url_for('static',filename='aksh.jpg')}}" alt="me"/> </div>
-      <div class="col-md-8 tileBox">
-        <div class="txtHead">
-          <h2>I am akshay kanawade,</h2>
-
-        </div>
-        <p> I am pursing <b>'Bachelor of Engineering (BE)'</b> in ,<b>'INFORMATION TECHNOLOGY (I.T)'</b> from Amrutvahini College of Engineering, Sangamner. <br/>
-        </p>
-      </div>
-      <!-- end: -->
-    </div>
-  </div>
-</section>
-<!--Quote-->
-<section id="quote" class="bg-parlex">
-  <div class="parlex-back">
+<!--/ Nav Star /-->
+<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-     <div class="row">
-       <div class="col-md-11"><h2><b>“Dreams are extremely important. You can’t do it unless you imagine it.”</b></h2>b> <span>-George Lucas</span></div>
-      </div>
+        <a class="navbar-brand js-scroll" href="#page-top"><span style="color:red"> ME </span></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#blog">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#work">Certificates</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <!--/.container-->
-  </div>
-</section>
+</nav>
+<!--/ Nav End /-->
 
-
-<!--Experience-->
-<section id="experience" class="secPad">
-  <div class="container">
-   <div class="heading">
-     <!-- Heading -->
-
-     <h2>EDUCATION</h2>
-     <br/>
-   </div>
-  <div>
-   <link rel="stylesheet" href="https://use.fontawesome.com//releases//v5.7.0//css//all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  </div>
- <div class="row experience-details">
-   <div class="col-md-7">
-    <div class="col-md-pull-4">
-     <div class="icon-block"><i class="fas fa-graduation-cap fa-5x"></i><h4>BE</h4>
-     </div>
-     <div class="fa-pull-left-7">
-      <h4>AMRUTVAHINI COLLEGE OF ENGINEERING ,<BR>SANGAMNER</h4>
-      <span>2017 - 2021<br> pursing</span>
-       <p>
-
-       </p>
-     </div>
+<!--/ Intro Skew Star /-->
+<div id="home" class="intro route bg-image" style="background-image: url(/static/img/banner-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+        <div class="table-cell">
+        <span class="container">
+          <h1 class="intro-title mb-4"><span style="color:red"><b>AKSHAY KANAWADE</b></span></h1>
+          <p class="intro-subtitle"><span style="color:white"><b>Student At Amrutvahini College Of Engineering, Sangamner.</b></span><strong class="text-slider"></strong></p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        <a class="btn btn-primary" href="/static/img/Akshay%20Resume%20(2).pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Resume</a>
+        </span>
+        </div>
     </div>
-    <div class="row-md-7">
-    </div>
-   </div>
- </div>
-  <div class="row experience-details">
-   <div class="col-md-7">
-    <div class="col-md-pull-4">
-     <div class="icon-block"><i class="fas fa-home fa-5x"></i><h4>HSC</h4>
-     </div>
-      <div class="fa-pull-left-7 ">
-       <h4>DNYANMATA JUNIOR COLLEGE ,SANGAMNER<br>
-       <p>
-
-       </p></h4>
-       <span>2015 - 2017<br> 54.62%</span>
-      </div>
-     </div>
-     <div class="col-md-1">
-     </div>
-   </div>
-  </div>
-  <div class="row experience-details">
-    <div class="col-md-7">
-     <div class="col-md-pull-4">
-      <div class="icon-block"><i class="fas fa-home fa-5x"></i><h4>SSC</h4>
-      </div>
-       <div class="fa-pull-left">
-         <h4>SHRI DNYANESHWER ENGLISH SCHOOL ,<br>NIMGAON BK</h4>
-         <span>2015<br> 78%</span>
-         <p>
-
-         </p>
-       </div>
-     </div>
-     <div class="col-md-7">
-     </div>
-    </div>
-  </div>
 </div>
-</section>
-
-<!--Skills-->
-<section id="skills" class="secPad white">
-  <div class="container">
-    <div class="heading ">
-      <!-- Heading -->
-        <section id="heading" class="bg-parlex">
-  <div class="parlex-back">
+<!--/ Intro Skew End /-->
+<section id="about" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/static/img/overlay-bg.jpg)">
     <div class="container">
-     <div class="row">
-         <div class="col-md-8"><h2><b>MY SKILLS</b></h2></div>
-      </div>
-    </div>
-    <!--/.container-->
-  </div>
-</section>
-    <div class="row skillContainer">
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-1" class="diagram" data-percent="95.2%"></div>
-        <div class="chart-text">
-          <h4>PROGRAMING LANGUAGE</h4>
-
-            <b>C language</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    70%
-  </div>
-</div>
-
-            <b>cpp</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-    60%
-  </div>
-</div>
-
-          <b> PYTHON</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    70%
-  </div>
-</div>
-</b>
-        </div>
-      </div>
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-2" class="diagram" data-percent="75.2%"></div>
-        <div class="chart-text">
-          <h4>WEB TECHNOLOGY</h4>
-
-            <b>HTML</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    70%
-  </div>
-</div>
-           <b> CSS</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    70%
-  </div>
-</div>
-
-        </div>
-      </div>
-      <div class="col-md-4 skillBox">
-        <div id="diagram-id-3" class="diagram" data-percent="85.6%"></div>
-        <div class="chart-text">
-          <h4>DATABASE</h4>
-
-            <b>DBMS</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-    80%
-  </div>
-</div>
-
-            <b>SQL</b>
-          <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    70%
-  </div>
-</div>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-<!--Portfolio-->
-<section id="portfolio" class="page-section section appear clearfix secPad">
-  <div class="container">
-<div class="heading">
-<!-- Heading -->
-<h2>DOCUMENTS</h2>
-</div>
-
-<div class="col-md-12">
-<div class="row">
-<div class="portfolio-items isotopeWrapper clearfix" id="3">
-<article class="col-sm-4 isotopeItem webdesign">
-<div class="portfolio-item"> <img src="{{url_for('static',filename='IMG-20201004-WA0005.jpg')}}" alt="" />
-<div class="portfolio-desc align-center">
-<div class="folio-info"> <a href="{{url_for('static',filename='IMG-20201004-WA0005.jpg')}}" class="fancybox">
-<h5>Third Year Result</h5>
-<i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-</div>
-</div>
-</article>
-<article class="col-sm-4 isotopeItem photography">
-<div class="portfolio-item"> <img src="{{url_for('static',filename='IMG-20201004-WA0008.jpg')}}" alt="" />
-<div class="portfolio-desc align-center">
-<div class="folio-info"> <a href="{{url_for('static',filename='IMG-20201004-WA0008.jpg')}}" class="fancybox">
-<h5>Second Year Result</h5>
-<i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-</div>
-</div>
-</article>
-<article class="col-sm-4 isotopeItem photography">
-<div class="portfolio-item"> <img src="{{url_for('static',filename='IMG-20201004-WA0006.jpg')}}" alt="" />
-<div class="portfolio-desc align-center">
-<div class="folio-info"> <a href="{{url_for('static',filename='IMG-20201004-WA0006.jpg')}}" class="fancybox">
-<h5>First Year Result</h5>
-<i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-</div>
-</div>
-</article>
-<article class="col-sm-4 isotopeItem print">
-<div class="portfolio-item"> <img src="{{url_for('static',filename='IMG-20201004-WA0009.jpg')}}" alt="" />
-<div class="portfolio-desc align-center">
-<div class="folio-info"> <a href="{{url_for('static',filename='IMG-20201004-WA0009.jpg')}}" class="fancybox">
-<h5>Hsc Result</h5>
-<i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-</div>
-</div>
-</article>
-<article class="col-sm-4 isotopeItem photography">
-<div class="portfolio-item"> <img src="{{url_for('static',filename='IMG-20201004-WA0007.jpg')}}" alt="" />
-<div class="portfolio-desc align-center">
-<div class="folio-info"> <a href="{{url_for('static',filename='IMG-20201004-WA0007.jpg')}}" class="fancybox">
-                    <h5>Ssc Result</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        <p style="color:blue">About</p>
+                    </h3>
+                    <div class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img src="/static/img/aksh.jpg"  height=321 width=264 class="img-fluid rounded b-shadow-a" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>AKSHAY KANAWADE</span></p>
+                                            <p><span class="title-s">Education: </span> <span>Bachelor Of Engineering</span></p>
+                                            <p><span class="title-s">Stream: </span> <span>Information Technology</span></p>
+                                            <p><span class="title-s">Email: </span> <span>kanawade.akshay9@gmail.com</span></p>
+                                            <p><span class="title-s">Phone: </span> <span>9146405749</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-mf">
+                                    <p class="title-s"> <p style="color:blue"><b>Skills</b></p>
+                                    <span>C Programming</span> <span class="pull-right">80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                    <span>C++   Programming</span> <span class="pull-right">75%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                    <span>Python</span> <span class="pull-right">60%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                    <span>HTML</span> <span class="pull-right">80%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                    <span>CSS</span> <span class="pull-right">70%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </article>
-          </div>
-        </div></div>
-    </div>
-  </div>
-</section>
-
-<!--Contact -->
-<section id="contactUs" class="page-section secPad">
-  <div class="container">
-    <div class="row">
-      <div class="heading">
-        <!-- Heading -->
-        <h2>Let's Keep In Touch!</h2>
-        <p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
-      </div>
-    </div>
-    <div class="row mrgn30">
-        <div class="col-sm-12 col-md-8">
-         		<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
-		<form name="sentMessage" id="contactForm"  novalidate>
-		<h3>Contact Form</h3>
-		<div class="control-group">
-		<div class="controls">
-		<input type="text" class="form-control"
-		placeholder="Full Name" id="name" required
-		data-validation-required-message="Please enter your name" />
-		<p class="help-block"></p>
-		</div>
-		</div>
-		<div class="control-group">
-		<div class="controls">
-		<input type="email" class="form-control" placeholder="Email"
-		id="email" required
-		data-validation-required-message="Please enter your email" />
-		</div>
-		</div>
-
-		<div class="control-group">
-		<div class="controls">
-		<textarea rows="10" cols="100" class="form-control"
-		placeholder="Message" id="message" required
-		data-validation-required-message="Please enter your message" minlength="5"
-		data-validation-minlength-message="Min 5 characters"
-		maxlength="999" style="resize:none"></textarea>
-		</div>
-		</div>
-		<div id="success"> </div> <!-- For success/fail messages -->
-		<button type="submit" class="btn btn-primary pull-right">Send</button><br />
-		</form>
+            </div>
         </div>
-      <div class="col-sm-12 col-md-2">
-        <h4>Address:</h4>
-        <address>
-        Akshay Kanawade<br>
-        A/p-Nimgaon BK,422605.<br>
-          Tal-Sangamner,<br>
-          Dist- A-Nagar<br>
-                Maharashtra.<br>
-        </address>
-        <h4>Phone:</h4>
-        <address>
-         +91-9146405749<br>
-        </address>
-      </div>
+    </div></section>
+
+<!--/ Section Services Star /-->
+
+
+<!--/ Section Services End /-->
+
+
+<!--/ Section Testimonials Star /-->
+<!--/ Section Blog Star /-->
+<section id="blog" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/static/img/overlay-bg.jpg)">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        <p style="color:blue">Educational Details</p>
+                    </h3>
+                    <div class="section" id='education'>
+                        <div class="container cc-education">
+                            <div class="h4 text-center mb-4 title"></div>
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body cc-education-header">
+                                            <p>2017 - 2021</p>
+                                            <div class="h5">Bachelor Degree</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body">
+                                            <div class="h5"><p>Bachelor of Engineering</p>
+                                                <p>Information Technology</p></div>
+                                            <p class="category">Savitribai Phule Pune University</p>
+                                            <p class="category">Pursing</p>
+                                            <p>Amrutvahini College of Engineering, Sangamner, Dist.:Ahemednagar, Maharashtra - 422608</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body cc-education-header">
+                                            <p>2015- 2017</p>
+                                            <div class="h5">HSC </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body">
+                                            <div class="h5">Maharashtra State Board of Higher Secondary Education</div>
+                                            <p class="category">Pune</p>
+                                            <p class="category">Percentage - 54.62% </p>
+                                            <p>Dnyanamata JR. College,Sangamner 422605</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body cc-education-header">
+                                            <p>2014 - 2015</p>
+                                            <div class="h5">SSC</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                                        <div class="card-body">
+                                            <div class="h5">Maharashtra State Board of Secondary Education</div>
+                                            <p class="category">Pune</p>
+                                            <p class="category">Percentage - 78.00% (Distinction)</p>
+                                            <p>Shri Dnyaneshwer English School,Nimgaon BK-422603</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
-  <!--/.container-->
 </section>
+<!--/ Section Blog End /-->
+<!--/ Section Portfolio Star /-->
+<section id="work" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/static/img/overlay-bg.jpg)">
 
-<!--/.page-section-->
-<footer class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="social pull-left"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-      </div>
-          </div>
-  </div>
-    <!-- / .row -->
-  </div>
-</footer>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        <p style="color:blue">Certificates</p>
+                    </h3>
+                    <p class="subtitle-a">
+                        Some Of my Certificate
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/python1.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/python1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Python Data Structures </h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">coursera</span> / <span class="w-date">26 apr. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/ml.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/ml.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title"> Introduction to Machine learning</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Coursera</span> / <span class="w-date">25 Apr. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/eudonix.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/eudonix.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">HTML and CSS3 with an animated Bootstrap Template</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Eudonix</span> / <span class="w-date">11 May 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/cpp12.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/cpp12.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">CPP</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Udemy</span> / <span class="w-date">20 Jun 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/python.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/python.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Python Quiz</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">AVCOE</span> / <span class="w-date">5 Apr. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="/static/img/java.jpg" data-lightbox="gallery-mf">
+                        <div class="work-img">
+                            <img src="/static/img/java.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Java</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">AVCOE</span> / <span class="w-date">2 Feb. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="w-like">
+                                        <span class="ion-ios-plus-outline"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
-<script src="{{url_for('static',filename='modernizr-latest.js')}}"></script>
-<script src="{{url_for('static',filename='jquery-1.8.2.min.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='bootstrap.min.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='.isotope.min.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='jquery.fancybox.pack.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='jquery.nav.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='jquery.cslider.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='jquery.diagram.js')}}js/jquery.diagram.js"></script>
- <script src="{{url_for('static',filename='jqBootstrapValidation.js')}}"></script>
- <script src="{{url_for('static',filename='contact_me.js')}}"></script>
+        </div>
+    </div>
+</section>
+<!--/ Section Portfolio End /-->
+<!--/ Section Contact-Footer Star /-->
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/static/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-mf">
+                    <div id="contact" class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title-box-2">
+                                    <h5 class="title-left">
+                                        Get IN TOUCH
+                                    </h5>
+                                </div>
+                                <div>
+                                    <form action="https://formspree.io/f/xnqonebn" method="POST">
+                                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                        <div id="errormessage"></div>
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <label for="name"></label><input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                                    <div class="validation"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <label for="email"></label><input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                                    <div class="validation"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <label for="subject"></label><input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                    <div class="validation"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                                    <div class="validation"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title-box-2">
+                                    <h5 class="title-left">
+                                        Contact Me
+                                    </h5>
+                                </div>
 
-<script src="{{url_for('static',filename='custom.js')}}" type="text/javascript"></script>
-<script src="{{url_for('static',filename='owl.carousel.js')}}"></script>
+                                <div class="more-info">
+                                    <p class="lead">
+                                        College:
+                                    <p>
+                                        Amrutvahini College Of Engineering ,Sangamner
+                                    </p>
+                                    <p>
+
+                                    </p>
+                                    <ul class="list-ico">
+                                        <li><span class="ion-ios-location"></span> Sanagamner 422605</li>
+                                        <li><span class="ion-ios-telephone"></span> 9146405749</li>
+                                        <li><span class="ion-email"></span> kanawade.akshay9@gmail.com</li>
+                                    </ul>
+                                </div>
+                                <div class="socials">
+                                    <ul>
+                                        <li><a href="https://github.com/AKSK16101999"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                                        <li><a href="https://www.linkedin.com/in/akshay-kanawade-1372b31a8/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                                        <li><a href="https://www.instagram.com/akshay_kanawade/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright <strong>Akshay Kanawade</strong>. All Rights Reserved</p>
+                        <div class="credits">
+                            <!--
+                              All the links in the footer should remain intact.
+                              You can delete the links only if you purchased the pro version.
+                              Licensing information: https://bootstrapmade.com/license/
+                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                            -->
+                            Designed by <a href="https://bootstrapmade.com/">Akshay Kanawade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!--/ Section Contact-footer End /-->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<div id="preloader"></div>
+
+<!-- JavaScript Libraries -->
+<script src="/static/lib/jquery/jquery.min.js"></script>
+<script src="/static/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/static/lib/popper/popper.min.js"></script>
+<script src="/static/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/lib/easing/easing.min.js"></script>
+<script src="/static/lib/counterup/jquery.waypoints.min.js"></script>
+<script src="/static/lib/counterup/jquery.counterup.js"></script>
+<script src="/static/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/static/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/static/lib/typed/typed.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src="/static/contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="/static/js/main.js"></script>
+
 </body>
 </html>
